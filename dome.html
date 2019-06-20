@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="dist/style.css">
+</head>
+<body>
+<nav id="viui-nav">ViUi-基于移动端Ui框架</nav>
+<div id="nav-layout" class="nav-layout" style="display: none"></div>
+<div class="container">
+    <div class="context">
+        <div class="ui">
+            <p><h2>ViUi</h2></p>
+            <p style="color: #bfbfbf;letter-spacing: 1px;">用美学讲述代码的人，那就是我</p>
+        </div>
+        <div class="paper">
+            <ul>
+                <a href="dome/nav.html">Nav</a>
+                <a href="dome/nav.html">Button</a>
+                <a href="dome/nav.html">Dialog</a>
+                <a href="dome/nav.html">Cell</a>
+                <a href="dome/nav.html">Icons</a>
+                <a href="dome/nav.html">Grids</a>
+                <a href="dome/nav.html">Badge</a>
+                <a href="dome/nav.html">slideBar</a>
+                <a href="dome/nav.html">Action</a>
+                <a href="dome/nav.html">Tabs</a>
+                <a href="dome/nav.html">Send</a>
+                <a href="dome/nav.html">keyBoard</a>
+                <a href="dome/nav.html">Slider</a>
+                <a href="dome/nav.html">Spinner</a>
+                <a href="dome/nav.html">City</a>
+            </ul>
+        </div>
+    </div>
+</div>
+<script type="application/javascript" src="dist/app.js"></script>
+<script type="application/javascript" src="lib/ViUi/nav.js"></script>
+<script>
+    ViUi.nav({
+        id: "app",
+        title: "ViUi移动端ui框架",
+        class: "app-nav",
+        width: 100,
+        height: 4,
+        background: "#dd0900"
+    })
+    nav_touch("#app");
+</script>
+</body>
+</html>

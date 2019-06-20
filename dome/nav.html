@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>nav</title>
+    <link rel="stylesheet" href="../dist/style.css">
+</head>
+<body>
+<nav id="viui-nav">组件NAV</nav>
+<div id="nav-layout" class="nav-layout" style="display: none"></div>
+<div class="container">
+    <div class="context">
+        <div class="ui">
+            <p><h2>ViUi | 组件nav</h2></p>
+            <p style="color: #bfbfbf;letter-spacing: 1px;">我是一个组件，欢迎您的使用！</p>
+        </div>
+    </div>
+</div>
+<script type="application/javascript" src="../dist/app.js"></script>
+<script type="application/javascript" src="../lib/ViUi/nav.js"></script>
+<script>
+    ViUi.nav({
+        id: "app",
+        title: "ViUi移动端ui框架",
+        class: "app-nav",
+        width: 100,
+        height: 4,
+        background: "#dd0900"
+    });
+    nav_touch("#app");
+
+    ViUi.navs({
+        id:"navs",
+    });
+</script>
+</body>
+</body>
+</html>
